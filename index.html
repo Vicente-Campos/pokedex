@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Pokédex Web</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Buscar Pokémon por nome/ID...">
+            <button id="searchButton">Buscar</button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section id="pokemonDetails" class="pokemon-details-modal hidden">
+            <div class="modal-content">
+                <button class="close-modal" id="closeDetailsButton">&times;</button>
+                </div>
+        </section>
+
+        <section id="pokedexList" class="pokedex-list">
+            <p id="statusMessage" class="hidden">Carregando...</p>
+            </section>
+
+        <div id="paginationControls" class="pagination-controls">
+            <button id="prevPageButton" disabled>Página Anterior</button>
+            <button id="nextPageButton">Próxima Página</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
