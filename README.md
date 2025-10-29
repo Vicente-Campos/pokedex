@@ -9,10 +9,9 @@ Um projeto Pokédex construído com HTML, CSS e JavaScript. Este projeto demonst
 
 ##  Como Executar o Projeto
 
-1.  **Clone o Repositório** (Se este código estiver em um Git) ou **Crie os Arquivos:**
+1.  **Clone o Repositório**
     ```bash
-    # Exemplo: git clone <https://github.com/Vicente-Campos/pokedex.git>
-    # Crie os arquivos: index.html, style.css e script.js
+    git clone <https://github.com/Vicente-Campos/pokedex.git>
     ```
 2.  **Abra o `index.html`:**
     Basta dar um duplo clique no arquivo `index.html` em seu explorador de arquivos, ou use a função "Open with Live Server" em editores como VS Code.
