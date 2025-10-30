@@ -192,6 +192,9 @@ body {
     color: #555;
 }
 
+a {
+    text-decoration: none;
+}
 
 /* MEDIA QUERY SIMPLES (para telas maiores) */
 @media (min-width: 600px) {
